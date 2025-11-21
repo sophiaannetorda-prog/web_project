@@ -1,0 +1,11 @@
+cd /c/GIT/web_project
+git init
+git checkout -b feature-style
+git add Home.html
+git add About.html
+git add Contact.html
+git add cssstyle.css
+git add jsscript.js
+git commit -m Initial website: HTML, CSS, JS
+git checkout main
+git merge feature-style
